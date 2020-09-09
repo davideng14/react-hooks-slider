@@ -1,4 +1,5 @@
 import React from 'react';
+import SliderWithHooks from './SliderWithHooks';
 import Slider from './Slider';
 
 import './App.css';
@@ -6,7 +7,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <Slider />
+      <SliderWithHooks />
     </div>
   );
 }
