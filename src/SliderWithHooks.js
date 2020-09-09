@@ -146,7 +146,6 @@ const Slider = () => {
         const transitonEndListeners = window.addEventListener('transitionend', createSlides);
 
         return () => {
-          //debugger;
           clearInterval(timer.current);
           window.removeEventListener('transitionend', transitonEndListeners);
         }
