@@ -141,15 +141,13 @@ const Slider = () => {
             nextSlide();    
         }, 3000);
 
-        console.log(timer);
-
         const transitonEndListeners = window.addEventListener('transitionend', createSlides);
 
         return () => {
           clearInterval(timer.current);
           window.removeEventListener('transitionend', transitonEndListeners);
         }
-    }, [activeIndex]);
+    });
 
   
     return (

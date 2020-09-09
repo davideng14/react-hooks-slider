@@ -1,6 +1,6 @@
 ## Simple Slider Component
 
-Just a slider class component.
+Just a slider hook component.
 Modified version of [React Hooks Slider: How to Build an Image Slider With React Hooks
 ](https://medium.com/better-programming/build-an-image-slider-with-react-es6-264368de68e4)
 
