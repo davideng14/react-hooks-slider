@@ -147,7 +147,7 @@ const Slider = () => {
           clearInterval(timer.current);
           window.removeEventListener('transitionend', transitonEndListeners);
         }
-    });
+    }, [activeIndex]);
 
   
     return (
